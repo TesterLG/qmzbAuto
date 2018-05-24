@@ -2,5 +2,50 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="Lib/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="Lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="Lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="Lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="Lib/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="Lib/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="Lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="Lib/dom4j.jar"/>
+	<classpathentry kind="lib" path="Lib/extentreports-2.41.0.jar"/>
+	<classpathentry kind="lib" path="Lib/fastjson-1.2.2.jar" sourcepath="Lib/source/fastjson-1.2.2.zip"/>
+	<classpathentry kind="lib" path="Lib/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="Lib/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="Lib/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="Lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="Lib/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="Lib/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="Lib/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="Lib/httpmime-4.5.jar"/>
+	<classpathentry kind="lib" path="Lib/java-client-2.1.0.jar"/>
+	<classpathentry kind="lib" path="Lib/jaxen-1.1.6.jar"/>
+	<classpathentry kind="lib" path="Lib/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="Lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="Lib/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="Lib/json-path-0.9.0.jar"/>
+	<classpathentry kind="lib" path="Lib/json-smart-1.2.jar"/>
+	<classpathentry kind="lib" path="Lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="Lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="Lib/mail.jar"/>
+	<classpathentry kind="lib" path="Lib/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="Lib/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="lib" path="Lib/poi-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="Lib/poi-examples-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="Lib/poi-excelant-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="Lib/poi-ooxml-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="Lib/poi-ooxml-schemas-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="Lib/poi-scratchpad-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="Lib/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="Lib/selenium-java-2.53.0.jar"/>
+	<classpathentry kind="lib" path="Lib/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="Lib/slf4j-log4j12-1.7.13.jar"/>
+	<classpathentry kind="lib" path="Lib/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="Lib/uiautomator.jar"/>
+	<classpathentry kind="lib" path="Lib/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="Lib/winp-1.23.jar"/>
+	<classpathentry kind="lib" path="Lib/xmlbeans-2.3.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

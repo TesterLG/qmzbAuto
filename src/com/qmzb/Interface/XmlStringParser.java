@@ -1,4 +1,4 @@
-package com.huice.Interface;
+package com.qmzb.Interface;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
@@ -10,7 +10,7 @@ import java.util.Map;
 import org.dom4j.DocumentException;
 import org.dom4j.io.SAXReader;
 
-import com.huice.base.XmlParser;
+import com.qmzb.base.XmlParser;
 
 
 public class XmlStringParser extends XmlParser{

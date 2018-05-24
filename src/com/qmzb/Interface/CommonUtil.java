@@ -1,4 +1,4 @@
-package com.huice.Interface;
+package com.qmzb.Interface;
 
 import java.net.URLEncoder;
 import java.util.List;

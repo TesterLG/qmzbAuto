@@ -1,4 +1,4 @@
-package com.huice.Interface;
+package com.qmzb.Interface;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -26,52 +26,32 @@ import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
+import org.openqa.selenium.WebDriver;
+import com.qmzb.base.XmlParser;
 
-public class HttpClient01 {
-//BasicNameValuePair
+public class HttpClient {
+	//
 	private static String STATUS = "status";
 	private static String RESPONSE = "response";
 	private static String TIME = "time";
-	private static String USER = "C100000362";
+	private static String AUTHORIZATION = "Authorization";
+	private static String USERID = "userId";
 	private static String PWD = "4a071cd838d7fbeec1225dd7d125be3a";
 
 	public static void main(String[] args) {
-//		CloseableHttpClient httpClient = HttpClients.createDefault();	
-//		try {
-//			URI uri = new URIBuilder()
-//							.setScheme("http")
-//							.setHost("api.lixing.biz/service")
-//							.setParameter("method", "getLocationInfo")
-//							.setParameter("user", "C100000362")
-//							.setParameter("sign", Md5Tool.getInstance().getLongToken("4a071cd838d7fbeec1225dd7d125be3a", "UTF-8"))
-//							.build();
-//			HttpGet  httpGet = new HttpGet(uri);
-//			CloseableHttpResponse response = httpClient.execute(httpGet);
-//			if(response.getStatusLine().getStatusCode()==200){
-//				System.out.println("请求成功");
-//				System.out.println(stream2String(response.getEntity().getContent()));
-//				
-//			}else{
-//				System.out.println("请求失败");
-//			}
-//			
-//		} catch (Exception e1) {
-//			// TODO Auto-generated catch block
-//			e1.printStackTrace();
-//		}
 
 		Map<String, String> map = new HashMap<String, String>();
-		map.put("method", "getLocationInfo");
-		map.put("user", USER);
+		map.put("method", "getWinningResults");
+		map.put("userId", USERID);
 		map.put("sign", Md5Tool.getInstance().getLongToken(PWD, "UTF-8"));
-		 Map<String, String> response = doGet("api.lixing.biz/service", null, map);
-		 if(response.get(STATUS).equals("200")){
-			 System.out.println(response.get(TIME));
-//			 System.out.println(response.get(RESPONSE));
-			 XmlStringParser xml = new XmlStringParser(response.get(RESPONSE));
-			 xml.Load();
-			 System.out.println(xml.getElements("//location").size());
-		 }
+		System.out.println(map);
+//		 Map<String, String> response = doGet("app2.qmwll.com/shake/active", null, map);
+//		 if(response.get(STATUS).equals("200")){
+//			 System.out.println(response.get(TIME));
+//			 XmlStringParser xml = new XmlStringParser(response.get(RESPONSE));
+//			 xml.Load();
+//			 System.out.println(xml.getElements("//location").size());
+//		 }
 	}
 	
 
